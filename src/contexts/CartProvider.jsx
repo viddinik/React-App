@@ -46,35 +46,7 @@ const CartProvider = ({ children }) => {
     const removeAfterCart = cartList.filter(item => item.id !== product.id);
     setCartList(removeAfterCart)
   }
-
-  /**
-   * 
-   * product = {
-      id:1,
-      name:"Laptop",
-      description : "Dizüstü oyun bilgisayarı",
-      price : 17000,
-      stock : 6,
-      rating : 5,
-      image : "/images/products/laptop.png"
-  }
-   * 
-  cartItem = {
-      id:1,
-      name:"Laptop",
-      description : "Dizüstü oyun bilgisayarı",
-      price : 17000,
-      stock : 6,
-      rating : 5,
-      image : "/images/products/laptop.png",
-      amount : 1
-  }
-   * 
-   * 
-   * 
-   */
-
-
+  
   const values = {
     cartIsShow,
     cartList,
