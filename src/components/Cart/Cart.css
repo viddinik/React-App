@@ -1,0 +1,67 @@
+.offcanvas{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1rem;
+    z-index: 105;
+}
+.content{
+    width: 400px;
+    height: 100vh;
+}
+.cart{
+    width: 100%;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+.cart-header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid silver;
+    padding-bottom: 1rem;
+}
+.cart-header h2 {
+    margin: 0;
+}
+.cart-header a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.cart-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.action-buttons{
+    padding: 1rem 0;
+
+}
+.action-buttons button{
+    cursor: pointer;
+    padding: 0.75rem 3rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.order-button{
+    background-color: #0f0;
+    color: #fff;
+}
+.cart-clear{
+    background-color: #f00;
+    color: #fff;
+}
+.action-buttons button:hover{
+    background-color: #666;
+}

@@ -1,0 +1,34 @@
+.slider-wrapper{
+    position: relative;
+    height: 500px;
+    background-color: #90ee90;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-top: 80px;
+}
+.slider-info{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.slider-info a{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.slider-info a:hover{
+    background-color: #6e1f1f;
+}
+.image-wrapper{
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.slider-image{
+    width: 100%;
+    height: 100%;
+}
